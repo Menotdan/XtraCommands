@@ -1,0 +1,48 @@
+name: XtraCommands
+main: me.hammy.xtracommands.xtracmds.xtracmds
+version: 1.0
+author: GeometricBoss
+commands:
+   fun:
+      description: This is a fun command.
+      usage: /<command>
+      permission: xtracommands.fun
+      permission-message: You don't have the <permission> permission!
+      
+   tpalldogs:
+      aliases: [tpad]
+      description: Teleport your dogs to you!
+      usage: /<command>
+      permission: xtracommands.tpdog
+      permission-message: You don't have the <permission> permission!
+   
+   tpnamedog:
+      aliases: [tpnd]
+      description: Teleport a named dog to you!
+      usage: /<command> [Name]
+      permission: xtracommands.tpnamedog
+      permission-message: You don't have the <permission> permission!
+   tpnamehorse:
+      aliases: [tpnh]
+      description: Teleport a named horse to you!
+      usage: /<command> [Name]
+      permission: xtracommands.tpnamehorse
+      permission-message: You don't have the <permission> permission!
+   tpallhorses:
+      aliases: [tpah]
+      description: Teleport all your horses to you!
+      usage: /<command>
+      permission: xtracommands.tphorse
+      permission-message: You don't have the <permission> permission!
+   dogattack:
+      aliases: [datt]
+      description: Send your dogs after a player!
+      usage: /<command>
+      permission: xtracommands.attackdog
+      permission-message: You don't have the <permission> permission!
+   stopattack:
+      aliases: [satt]
+      description: Stop the ambush!
+      usage: /<command>
+      permission: xtracommands.stopattackdog
+      permission-message: You don't have the <permission> permission!
